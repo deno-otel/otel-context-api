@@ -1,2 +1,2 @@
 export { type ContextAPI } from "./context-api.ts";
-export { Context } from "./context.ts";
+export { Context, createContextKey } from "./context.ts";
