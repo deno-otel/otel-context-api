@@ -26,6 +26,7 @@ export class ContextBuilder {
    */
   addValue(key: symbol, value: unknown) {
     this._values.push({ key, value });
+    return this;
   }
 
   /**
